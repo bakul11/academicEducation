@@ -1,0 +1,44 @@
+.footer-section {
+    background-image: url('../../../images/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    /* height: 400px; */
+    position: relative;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+.footer-section::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .9);
+}
+
+.footer-item {
+    position: relative;
+    z-index: 9999;
+}
+
+
+.footer-item .fotMenu2 {
+    list-style: none;
+}
+
+.footer-item .fotMenu2 li a {
+    display: block;
+    color: white;
+    transition: 0.5s ease-in-out;
+    line-height: 30px;
+}
+
+.footer-item .fotMenu2 li a:hover {
+    color: red;
+    margin-left: 10px;
+}

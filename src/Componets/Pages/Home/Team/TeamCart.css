@@ -1,0 +1,34 @@
+.main-team .team-item-member {
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.main-team .social-media-team {
+    content: '';
+    width: 232px;
+    height: 173px;
+    position: absolute;
+    left: 0;
+    bottom: -120px;
+    margin: 0px auto;
+    right: 0;
+    transition: all 0.5s ease-in-out;
+    visibility: hidden;
+}
+
+.main-team:hover .social-media-team {
+    content: '';
+    width: 232px;
+    height: 173px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+
+
+.profile-social-team ul li a {
+    color: white;
+}

@@ -1,0 +1,56 @@
+.contact-sec {
+    background-image: url('../../../images/edu2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    position: relative;
+    height: 350px;
+}
+
+.contact-sec::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+}
+
+
+.contact-title {
+    z-index: 9999;
+}
+
+.contact-title h3 {
+    font-size: 50px;
+    text-shadow: 2px 2px 2px orange;
+}
+
+
+.sigle-contact-success {
+    background: rgb(148, 80, 16);
+    padding: 30px 10px;
+    border-radius: 8px;
+}
+
+.sigle-contact-primary {
+    background: rgb(240, 74, 45);
+    padding: 30px 10px;
+    border-radius: 8px;
+}
+
+.sigle-contact-danger {
+    background: #1A2844;
+    padding: 30px 10px;
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+
+
+.contact-area .map{
+    margin-top: 100px;
+}

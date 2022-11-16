@@ -1,0 +1,21 @@
+.edu-logo {
+    position: relative;
+}
+
+.edu-logo .edu1 {
+    position: relative;
+}
+
+.edu-logo .edu2 {
+    position: absolute;
+    right: -10px;
+    bottom: -84px;
+}
+
+
+.edu-logo .edu2 img{
+    border-radius: 10px;
+}
+.edu-logo .edu1 img{
+    border-radius: 10px;
+}

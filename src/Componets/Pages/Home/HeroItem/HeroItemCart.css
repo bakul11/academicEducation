@@ -1,0 +1,12 @@
+@media screen and (max-width : 767px) {
+    .subHeroItem {
+        margin-top: 120px;
+    }
+}
+
+
+@media screen and (max-width : 400px) {
+    .subHeroItem {
+        margin-top: 220px;
+    }
+}

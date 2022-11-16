@@ -1,0 +1,22 @@
+.event-primary {
+    background: #1A2844 !important;
+}
+
+.event-danger {
+    background: #A61D37 !important;
+}
+
+
+
+@media screen and (max-width: 440px) {
+    .event-item {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .event-item .event-logo .subLogo {
+        margin-bottom: 30px;
+    }
+
+}

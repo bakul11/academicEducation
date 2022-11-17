@@ -6,10 +6,10 @@
     color: #1A2844 !important;
 }
 
-.customMenu .active {
+.customMenu .nav-item .active {
     color: white !important;
     background: #1A2844;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 
@@ -18,6 +18,6 @@
     padding: 0;
 }
 
-.main-meubar{
+.main-meubar {
     border-bottom: 2px solid rgb(230, 227, 227);
 }

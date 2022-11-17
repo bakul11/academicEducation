@@ -31,19 +31,19 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul className="navbar-nav customMenu">
                             <li className="nav-item">
-                                <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
+                                <Link className="nav-link" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link " aria-current="page" to="/course">Course</NavLink>
+                                <NavLink className="nav-link " to="/course">Course</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link " aria-current="page" to="/blog">Blog</NavLink>
+                                <NavLink className="nav-link " to="/blog">Blog</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link " aria-current="page" to="/event">Event</NavLink>
+                                <NavLink className="nav-link " to="/event">Event</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link " aria-current="page" to="/contact">Contact Us</NavLink>
+                                <NavLink className="nav-link " to="/contact">Contact Us</NavLink>
                             </li>
                         </ul>
                         <div className="login-profile justify-content-end">

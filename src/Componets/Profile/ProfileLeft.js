@@ -14,9 +14,9 @@ const ProfileLeft = () => {
                 <hr />
                 <h6>Email : <span className='ms-5'>{user?.email}</span></h6>
                 <hr />
-                <h6>Phone : <span className='ms-5'>{user?.email ? user?.phone : <span>Add your Mobile number</span>}</span></h6>
+                <h6>Phone : <span className='ms-5'>{user?.phone ? user?.phone : <span>Add your Mobile number</span>}</span></h6>
                 <hr />
-                <h6>Address : <span className='ms-5'>{user?.email ? user?.address : <span>Add your Address</span>}</span></h6>
+                <h6>Address : <span className='ms-5'>{user?.address ? user?.address : <span>Add your Address</span>}</span></h6>
             </div>
         </div>
     );

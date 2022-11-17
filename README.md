@@ -1,5 +1,5 @@
 ## Project Name : Academic Education
-### Link Site Link :  [www.turbo.com](https://turbo-92a45.web.app/)
+### Link Site Link :  [www.academic.com](https://academic-education.netlify.app/)
 
 ### Technology Used 
 -------------------------

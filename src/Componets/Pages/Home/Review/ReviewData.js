@@ -8,7 +8,7 @@ const ReviewData = ({ id }) => {
 
     //get all review 
     useEffect(() => {
-        fetch(`http://localhost:5000/review/getAllReview/${id}`, {
+        fetch(`https://academic-education.onrender.com/review/getAllReview/${id}`, {
             method: 'GET',
             headers: {
                 'content-type': 'application/json'

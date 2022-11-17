@@ -10,7 +10,7 @@ const EventBlog = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/blog/getAllBlog')
+        fetch('https://academic-education.onrender.com/blog/getAllBlog')
             .then(res => res.json())
             .then(data => {
                 if (data?.success) {

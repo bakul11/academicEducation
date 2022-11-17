@@ -8,7 +8,7 @@ const ForgetPassword = () => {
 
 
     const onSubmit = data => {
-        fetch(`http://localhost:5000/auth/checkEmail`, {
+        fetch(`https://academic-education.onrender.com/auth/checkEmail`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

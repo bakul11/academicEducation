@@ -29,7 +29,7 @@ const Contact = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
 
     const onSubmit = data => {
-        fetch('http://localhost:5000/book/bookPost', {
+        fetch('https://academic-education.onrender.com/book/bookPost', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

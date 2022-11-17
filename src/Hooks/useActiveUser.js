@@ -4,7 +4,7 @@ const useActiveUser = () => {
     const [user, setUser] = useState({});
 
     useEffect(() => {
-        fetch(`http://localhost:5000/auth/activeUser`, {
+        fetch(`https://academic-education.onrender.com/auth/activeUser`, {
             method: 'GET',
             headers: {
                 'content-type': 'application/json',

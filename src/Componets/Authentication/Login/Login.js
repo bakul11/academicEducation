@@ -13,7 +13,7 @@ const Login = () => {
     const onSubmit = data => {
 
 
-        fetch(`http://localhost:5000/auth/login`, {
+        fetch(`https://academic-education.onrender.com/auth/login`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

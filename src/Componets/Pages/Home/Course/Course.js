@@ -14,7 +14,7 @@ const Course = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/course/getCourse')
+        fetch('https://academic-education.onrender.com/course/getCourse')
             .then(res => res.json())
             .then(data => {
                 if (data?.success) {

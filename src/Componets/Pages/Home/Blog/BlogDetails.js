@@ -13,7 +13,7 @@ const BlogDetails = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/blog/getSingleBlog/${id}`)
+        fetch(`https://academic-education.onrender.com/blog/getSingleBlog/${id}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data)

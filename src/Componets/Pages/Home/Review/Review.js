@@ -19,7 +19,7 @@ const Review = ({ id }) => {
             userName: userName,
             postId: id
         }
-        fetch('http://localhost:5000/review/reviewPost', {
+        fetch('https://academic-education.onrender.com/review/reviewPost', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -31,7 +31,7 @@ const Review = ({ id }) => {
                 if (result?.success) {
                     toast.success(result?.message);
                     reset();
-                } 
+                }
             })
     }
 

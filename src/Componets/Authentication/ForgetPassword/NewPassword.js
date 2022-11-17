@@ -11,7 +11,7 @@ const NewPassword = () => {
     const navigate = useNavigate();
 
     const onSubmit = data => {
-        fetch(`http://localhost:5000/auth/resetPassword/${userId}`, {
+        fetch(`https://academic-education.onrender.com/auth/resetPassword/${userId}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

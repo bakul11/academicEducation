@@ -40,7 +40,7 @@ const ProfileRight = () => {
 
                     //post data in mongodb 
 
-                    fetch(`http://localhost:5000/auth/updateProfile/${userSingleId}`, {
+                    fetch(`https://academic-education.onrender.com/auth/updateProfile/${userSingleId}`, {
                         method: 'PUT',
                         headers: {
                             'content-type': 'application/json',

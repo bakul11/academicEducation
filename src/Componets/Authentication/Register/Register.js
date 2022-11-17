@@ -13,7 +13,7 @@ const Register = () => {
     const onSubmit = data => {
 
 
-        fetch(`http://localhost:5000/auth/register`, {
+        fetch(`https://academic-education.onrender.com/auth/register`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

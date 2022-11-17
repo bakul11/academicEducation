@@ -14,7 +14,7 @@ const RecentBlog = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/blog/getAllBlog')
+        fetch('https://academic-education.onrender.com/blog/getAllBlog')
             .then(res => res.json())
             .then(data => {
                 if (data?.success) {
@@ -50,7 +50,7 @@ const RecentBlog = () => {
                     }
                 </div>
             </div>
-          
+
             <div className="floow-us mt-5">
                 <hr />
                 <div className="blog-social">
